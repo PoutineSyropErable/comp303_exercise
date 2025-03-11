@@ -13,6 +13,10 @@ public class Deck implements CardSource {
 		// shuffle deck
 	}
 
+	public Deck(List<Card> pCards) {
+		this.aCards = pCards;
+	}
+
 	public int size() {
 		return aCards.size();
 	}

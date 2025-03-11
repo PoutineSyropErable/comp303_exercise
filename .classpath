@@ -18,6 +18,7 @@
     <classpathentry kind="lib" path="/usr/lib/jvm/javafx-sdk-17.0.13/lib/javafx.swing.jar"/>
     <classpathentry kind="lib" path="/usr/lib/jvm/javafx-sdk-17.0.13/lib/javafx.web.jar"/>
 
+	<!-- Change the path the these so they are in user ~/.local  -->
     <!-- JUnit 5 libraries -->
     <classpathentry kind="lib" path="/usr/lib/jvm/junit5/junit-jupiter-api-5.11.3.jar"/>
     <classpathentry kind="lib" path="/usr/lib/jvm/junit5/junit-jupiter-engine-5.11.3.jar"/>
