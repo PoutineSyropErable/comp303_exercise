@@ -16,4 +16,16 @@ public class AggregatedDeck implements CardSource {
 		}
 		Collections.shuffle(cards);
 	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Card draw() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

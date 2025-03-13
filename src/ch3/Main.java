@@ -10,8 +10,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		List<Card> cards = new ArrayList<>();
-		List<Card> cards2 = Collections.unmodifiableList(cards);
-		cards2.add(new Card(Suit.HEARTS, Rank.ACE));
+		cards.add(new Card(Suit.HEARTS, Rank.ACE));
+		// List<Card> cards2 = Collections.unmodifiableList(cards);
 
 		// cards.add(...);
 
